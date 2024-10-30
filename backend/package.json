@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node -r dotenv/config ./src/app.js"
+    "start": "nodemon -r dotenv/config ./src/app.js"
   },
   "author": "ADol",
   "license": "ISC",
@@ -15,5 +15,8 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }

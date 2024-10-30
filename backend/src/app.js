@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 
-import notesRouter from './modules/notes/index';
+import notesRouter from './modules/notes/index.js';
 
 const app = express();
 
